@@ -1,0 +1,549 @@
+[
+  {
+    "id": "101",
+    "slug": "house-106-architectural-residence",
+    "title": "Architectural House #106 Urban Residence",
+    "location": "Bengaluru, Karnataka",
+    "type": "Luxury Urban Residence",
+    "area": "Contemporary",
+    "badge": "Featured",
+    "description": "A landmark contemporary 3-floor urban residence featuring custom fluted wood panelling, backlit LED architectural profiles, integrated stilt parking, private glass balconies, and premium terrace skylight pergolas.",
+    "images": [
+      "/images/cosmic-house-106-day.png",
+      "/images/cosmic-house-106-night.png",
+      "/images/cosmic-front-facade-render.jpg"
+    ],
+    "features": [
+      "5 Bedrooms",
+      "5 Bathrooms",
+      "G+2 Floors",
+      "3,850 sq.ft",
+      "Stilt Parking",
+      "Terrace Skylight Pergola",
+      "LED Facade Profile",
+      "Vastu Oriented"
+    ]
+  },
+  {
+    "id": "102",
+    "slug": "residence-195-contemporary-multi-floor",
+    "title": "Contemporary Multi-Tier Residence #195/4",
+    "location": "Rajajinagar, Bengaluru",
+    "type": "Contemporary Multi-Unit Home",
+    "area": "Modern",
+    "badge": "Premium+",
+    "description": "An imposing G+3 luxury residence with vertical teak-finish louver panels, framed box projections, modern sliding window systems, and expansive ground-level parking with custom gated security.",
+    "images": [
+      "/images/cosmic-residence-elevation-1.jpg",
+      "/images/cosmic-residence-elevation-2.jpg",
+      "/images/cosmic-residence-elevation-night.jpg"
+    ],
+    "features": [
+      "6 Bedrooms",
+      "6 Bathrooms",
+      "G+3 Floors",
+      "4,200 sq.ft",
+      "Multi-Car Parking",
+      "Glass Balustrades",
+      "Louver Accents",
+      "Turnkey Delivered"
+    ]
+  },
+  {
+    "id": "103",
+    "slug": "sudarshana-residence-36",
+    "title": "Sudarshana Heritage Duplex Residence #36",
+    "location": "Bengaluru, Karnataka",
+    "type": "Heritage Modern Home",
+    "area": "Urban",
+    "badge": "Featured",
+    "description": "Combining rich traditional craftsmanship with modern vertical architecture. Features fluted vertical timber screening, an artisanal circular medallion window, glass-railed balconies, and custom entrance gates.",
+    "images": [
+      "/images/cosmic-sudharshana-facade.jpg",
+      "/images/cosmic-residence-elevation-night.jpg",
+      "/images/cosmic-front-facade-render.jpg"
+    ],
+    "features": [
+      "4 Bedrooms",
+      "4 Bathrooms",
+      "G+3 Floors",
+      "3,600 sq.ft",
+      "Timber Louvers",
+      "Heritage Medallion",
+      "Custom MS Gates",
+      "Vastu Compliant"
+    ]
+  },
+  {
+    "id": "104",
+    "slug": "cosmic-cnc-jali-facade-home",
+    "title": "Geometric CNC Jali Architectural Residence",
+    "location": "Bengaluru, Karnataka",
+    "type": "Architectural Landmark",
+    "area": "Contemporary",
+    "badge": "Premium",
+    "description": "Features an extraordinary parametric hexagonal and Islamic-inspired laser-cut CNC metal screen facade paired with warm terracotta wall tiles, creating privacy and dramatic daylight filtration.",
+    "images": [
+      "/images/cosmic-jali-facade-site.jpg",
+      "/images/villa-golden-jali-1.png",
+      "/images/cosmic-house-106-night.png"
+    ],
+    "features": [
+      "4 Bedrooms",
+      "4 Bathrooms",
+      "G+2 Floors",
+      "3,450 sq.ft",
+      "Parametric CNC Jali",
+      "Terracotta Cladding",
+      "Natural Ventilation",
+      "Double Height Living"
+    ]
+  },
+  {
+    "id": "105",
+    "slug": "bespoke-teakwood-interior-suite",
+    "title": "Bespoke Teak Pooja Mandir & Foyer Suite",
+    "location": "Bengaluru, Karnataka",
+    "type": "Interior Craftsmanship",
+    "area": "Interior",
+    "badge": "Interior",
+    "description": "Hand-carved solid teakwood mandir doors with Gajalakshmi archway, gold leaf lotus motifs, fluted vertical ceiling rafters, and seamless Italian marble floor finishes.",
+    "images": [
+      "/images/cosmic-pooja-mandir-teak.jpg",
+      "/images/cosmic-foyer-kitchen-hallway.jpg",
+      "/images/cosmic-living-peacock-mural.jpg"
+    ],
+    "features": [
+      "Solid Teakwood Joinery",
+      "Hand-Carved Mandir",
+      "Gold Leaf Motifs",
+      "Italian Marble",
+      "Rafter Ceiling",
+      "Integrated LED Profiles"
+    ]
+  },
+  {
+    "id": "106",
+    "slug": "luxury-marble-tv-lounge-suite",
+    "title": "Marble Feature TV Lounge & Dining Suite",
+    "location": "Bengaluru, Karnataka",
+    "type": "Interior Craftsmanship",
+    "area": "Interior",
+    "badge": "Interior",
+    "description": "Spacious open-plan living room with fluted timber partition pillars, bookmatched marble TV backdrop with gold inlay profiles, coffered cove ceilings, and bespoke dining bar unit.",
+    "images": [
+      "/images/cosmic-living-tv-unit-panelling.jpg",
+      "/images/cosmic-drawing-room-seating.jpg",
+      "/images/cosmic-hall-dining-partition.jpg",
+      "/images/cosmic-dining-fluted-screen.jpg",
+      "/images/cosmic-living-entertainment-lounge.jpg"
+    ],
+    "features": [
+      "Bookmatched Marble Wall",
+      "Gold Inlay Profiles",
+      "Fluted Timber Screens",
+      "Cove LED Lighting",
+      "Designer Dining Suite",
+      "Display Bar Unit"
+    ]
+  },
+  {
+    "id": "2",
+    "slug": "contemporary-grey-facade-home",
+    "title": "Contemporary Navy & Wood Duplex",
+    "location": "Jayanagar, Bengaluru",
+    "type": "Contemporary Home",
+    "area": "Contemporary",
+    "badge": "Featured",
+    "description": "A refined contemporary duplex with navy blue framing, warm wood-panel accents, integrated facade lighting, and an expansive paved driveway.",
+    "images": [
+      "/images/villa-navy-duplex-1.png",
+      "/images/villa-horizontal-light-1.png",
+      "/images/villa-corner-balcony-1.png"
+    ],
+    "features": [
+      "4 Bedrooms",
+      "3 Bathrooms",
+      "G+1 Floors",
+      "2,900 sq.ft"
+    ]
+  },
+  {
+    "id": "3",
+    "slug": "urban-white-red-residence",
+    "title": "Terracotta Breeze-Block Residence #12",
+    "location": "HSR Layout, Bengaluru",
+    "type": "Urban Home",
+    "area": "Urban",
+    "badge": "Premium",
+    "description": "An award-winning urban home featuring exposed terracotta jali screens, natural wood soffit ceilings, warm recessed lighting, and a handcrafted designer gate.",
+    "images": [
+      "/images/villa-terracotta-12-1.png",
+      "/images/villa-terracotta-corner-1.png",
+      "/images/villa-square-niches-1.png"
+    ],
+    "features": [
+      "4 Bedrooms",
+      "4 Bathrooms",
+      "G+2 Floors",
+      "3,400 sq.ft"
+    ]
+  },
+  {
+    "id": "4",
+    "slug": "tall-urban-residential-home",
+    "title": "Green View Residency #123",
+    "location": "Koramangala, Bengaluru",
+    "type": "Urban Home",
+    "area": "Urban",
+    "badge": "Premium",
+    "description": "A tall, slender urban residence maximizing natural light with vertical grey fluted panels, warm bronze trimming, glass balconies, and stilt parking.",
+    "images": [
+      "/images/exterior-greenview-123.png",
+      "/images/exterior-modern-apt-1.png",
+      "/images/exterior-greenery-apt-1.png"
+    ],
+    "features": [
+      "5 Bedrooms",
+      "4 Bathrooms",
+      "G+3 Floors",
+      "4,200 sq.ft"
+    ]
+  },
+  {
+    "id": "5",
+    "slug": "modern-balcony-house",
+    "title": "Golden Jali Illumination Residence",
+    "location": "Malleshwaram, Bengaluru",
+    "type": "Modern Home",
+    "area": "Modern",
+    "badge": "Premium",
+    "description": "Celebrated for its back-lit golden laser-cut CNC jali panels and dark architectural louvers, creating an enchanting evening elevation.",
+    "images": [
+      "/images/villa-golden-jali-1.png",
+      "/images/villa-corner-balcony-1.png",
+      "/images/villa-horizontal-light-1.png"
+    ],
+    "features": [
+      "4 Bedrooms",
+      "3 Bathrooms",
+      "G+2 Floors",
+      "3,100 sq.ft"
+    ]
+  },
+  {
+    "id": "6",
+    "slug": "three-storey-contemporary-residence",
+    "title": "Festive Griha Pravesh Residence",
+    "location": "Whitefield, Bengaluru",
+    "type": "Contemporary Home",
+    "area": "Contemporary",
+    "badge": "Featured",
+    "description": "A completed 3-storey contemporary home with terracotta wall tiles, geometric upper jali screen, expansive sliding windows, and a welcoming landscaped entrance.",
+    "images": [
+      "/images/villa-housewarming-1.png",
+      "/images/villa-dream-home-123.png",
+      "/images/villa-terracotta-corner-1.png"
+    ],
+    "features": [
+      "5 Bedrooms",
+      "4 Bathrooms",
+      "G+2 Floors",
+      "3,900 sq.ft"
+    ]
+  },
+  {
+    "id": "7",
+    "slug": "modern-stone-facade-residence",
+    "title": "Golden Stone Multi-Storey Residence",
+    "location": "Bannerghatta, Bengaluru",
+    "type": "Premium Home",
+    "area": "Premium",
+    "badge": "Premium+",
+    "description": "A premium multi-level residence with natural golden stone cladding, deep cantilevered balconies, glass railings, and ground-level private parking.",
+    "images": [
+      "/images/exterior-golden-stone-1.png",
+      "/images/exterior-modern-apt-1.png",
+      "/images/exterior-greenery-apt-1.png"
+    ],
+    "features": [
+      "6 Bedrooms",
+      "5 Bathrooms",
+      "G+3 Floors",
+      "4,600 sq.ft"
+    ]
+  },
+  {
+    "id": "8",
+    "slug": "dream-home-contemporary-residence",
+    "title": "Dream Home Residence #123",
+    "location": "Sarjapur Road, Bengaluru",
+    "type": "Premium Home",
+    "area": "Premium",
+    "badge": "Premium+",
+    "description": "A luxurious contemporary residence highlighted by rich plum architectural borders, warm wooden soffits, integrated spot lighting, and dual vehicle stilt parking.",
+    "images": [
+      "/images/villa-dream-home-123.png",
+      "/images/villa-horizontal-light-1.png",
+      "/images/villa-navy-duplex-1.png"
+    ],
+    "features": [
+      "5 Bedrooms",
+      "4 Bathrooms",
+      "G+2 Floors",
+      "3,650 sq.ft"
+    ]
+  },
+  {
+    "id": "9",
+    "slug": "premium-garden-residence",
+    "title": "Lush Canopy Contemporary Residence",
+    "location": "Electronic City, Bengaluru",
+    "type": "Modern Home",
+    "area": "Modern",
+    "badge": "Premium",
+    "description": "Surrounded by lush greenery, this multi-level home features subtle wood and cream horizontal banding, chevron wall lighting, and private balconies.",
+    "images": [
+      "/images/exterior-greenery-apt-1.png",
+      "/images/exterior-golden-stone-1.png",
+      "/images/exterior-greenview-123.png"
+    ],
+    "features": [
+      "4 Bedrooms",
+      "4 Bathrooms",
+      "G+3 Floors",
+      "3,900 sq.ft"
+    ]
+  },
+  {
+    "id": "9b",
+    "slug": "modern-terrace-residence",
+    "title": "Modern Niche-Tower Residence",
+    "location": "BTM Layout, Bengaluru",
+    "type": "Modern Home",
+    "area": "Modern",
+    "badge": "Premium",
+    "description": "Distinctive residence featuring 6 illuminated geometric square wall niches set into rich vertical wood grain panelling and open terrace pergola.",
+    "images": [
+      "/images/villa-square-niches-1.png",
+      "/images/villa-golden-jali-1.png",
+      "/images/villa-navy-duplex-1.png"
+    ],
+    "features": [
+      "4 Bedrooms",
+      "3 Bathrooms",
+      "G+1 Floors",
+      "2,750 sq.ft"
+    ]
+  },
+  {
+    "id": "10",
+    "slug": "luxury-glass-balcony-home",
+    "title": "Corner Balcony Designer Residence",
+    "location": "Hebbal, Bengaluru",
+    "type": "Contemporary Home",
+    "area": "Contemporary",
+    "badge": "Featured",
+    "description": "A sophisticated corner-plot duplex residence featuring wraparound glass balconies, white laser-cut floral corner jali, and deep wood soffits.",
+    "images": [
+      "/images/villa-corner-balcony-1.png",
+      "/images/villa-housewarming-1.png",
+      "/images/villa-terracotta-corner-1.png"
+    ],
+    "features": [
+      "4 Bedrooms",
+      "4 Bathrooms",
+      "G+2 Floors",
+      "3,500 sq.ft"
+    ]
+  },
+  {
+    "id": "10b",
+    "slug": "modern-contemporary-residence",
+    "title": "Terracotta Jaali & Porthole Residence",
+    "location": "Koramangala, Bengaluru",
+    "type": "Contemporary Home",
+    "area": "Contemporary",
+    "badge": "Premium",
+    "description": "Contemporary residence defined by vibrant red terracotta jaali masonry, a circular porthole architectural window, and charcoal stacked stone feature walls.",
+    "images": [
+      "/images/villa-terracotta-corner-1.png",
+      "/images/villa-terracotta-12-1.png",
+      "/images/villa-horizontal-light-1.png"
+    ],
+    "features": [
+      "4 Bedrooms",
+      "3 Bathrooms",
+      "G+1 Floors",
+      "3,100 sq.ft"
+    ]
+  },
+  {
+    "id": "11",
+    "slug": "elegant-urban-loft",
+    "title": "Modern Stilt Apartment Residence",
+    "location": "Indiranagar, Bengaluru",
+    "type": "Urban Home",
+    "area": "Urban",
+    "badge": "Premium",
+    "description": "A sleek multi-family stilt residence featuring textured dark grey stone tile accents, pristine white stucco, and wide sliding aluminum windows.",
+    "images": [
+      "/images/exterior-modern-apt-1.png",
+      "/images/exterior-greenview-123.png",
+      "/images/exterior-golden-stone-1.png"
+    ],
+    "features": [
+      "4 Bedrooms",
+      "4 Bathrooms",
+      "G+3 Floors",
+      "3,800 sq.ft"
+    ]
+  },
+  {
+    "id": "11b",
+    "slug": "modern-urban-residence",
+    "title": "Horizontal Glow Minimalist Residence",
+    "location": "HSR Layout, Bengaluru",
+    "type": "Urban Home",
+    "area": "Urban",
+    "badge": "Premium",
+    "description": "Modern minimalist residence highlighted by three parallel illuminated horizontal light bands, concrete geometric scorelines, and vertical timber slats.",
+    "images": [
+      "/images/villa-horizontal-light-1.png",
+      "/images/villa-navy-duplex-1.png",
+      "/images/villa-square-niches-1.png"
+    ],
+    "features": [
+      "3 Bedrooms",
+      "3 Bathrooms",
+      "G+1 Floors",
+      "2,600 sq.ft"
+    ]
+  },
+  {
+    "id": "12",
+    "slug": "grand-entrance-estate",
+    "title": "Grand Entrance Griha Pravesh Estate",
+    "location": "Yelahanka, Bengaluru",
+    "type": "Premium Home",
+    "area": "Premium",
+    "badge": "Premium+",
+    "description": "An expansive family estate with handcrafted wooden double entry doors, Griha Pravesh flower arches, upper balcony glass, and perimeter landscape lighting.",
+    "images": [
+      "/images/villa-housewarming-1.png",
+      "/images/villa-dream-home-123.png",
+      "/images/exterior-greenery-apt-1.png"
+    ],
+    "features": [
+      "6 Bedrooms",
+      "5 Bathrooms",
+      "G+2 Floors",
+      "4,500 sq.ft"
+    ]
+  },
+  {
+    "id": "12b",
+    "slug": "luxury-modern-residence",
+    "title": "Signature Architectural Residence",
+    "location": "Whitefield, Bengaluru",
+    "type": "Premium Home",
+    "area": "Premium",
+    "badge": "Premium+",
+    "description": "A signature luxury residence boasting backlit brass screens, natural stone accents, integrated facade sconce illumination, and smart automated security gates.",
+    "images": [
+      "/images/villa-golden-jali-1.png",
+      "/images/villa-horizontal-light-1.png",
+      "/images/villa-corner-balcony-1.png"
+    ],
+    "features": [
+      "5 Bedrooms",
+      "4 Bathrooms",
+      "G+2 Floors",
+      "3,700 sq.ft"
+    ]
+  },
+  {
+    "id": "14",
+    "slug": "modern-living-space-interior",
+    "title": "Artisanal Royal Peacock Mural Living Suite",
+    "location": "Rajajinagar, Bengaluru",
+    "type": "Artisanal Living Room",
+    "area": "Interior",
+    "badge": "Interior",
+    "description": "Grand living space showcasing a hand-painted royal peacock wall mural framed in classical mouldings, wooden coffered ceiling with vintage chandelier, and carved teak entry arch.",
+    "images": [
+      "/images/cosmic-living-peacock-mural.jpg",
+      "/images/cosmic-drawing-room-seating.jpg",
+      "/images/cosmic-living-tv-unit-panelling.jpg"
+    ],
+    "features": [
+      "Hand-Painted Mural",
+      "Coffered Wood Ceiling",
+      "Carved Teak Arch",
+      "Italian Marble Floors"
+    ]
+  },
+  {
+    "id": "15",
+    "slug": "luxury-dining-interior",
+    "title": "Living-to-Dining Fluted Wood Partition Suite",
+    "location": "Jayanagar, Bengaluru",
+    "type": "Dining & Partition",
+    "area": "Interior",
+    "badge": "Interior",
+    "description": "Architectural fluted timber room divider creating subtle spatial separation between the main living area and dining room without obstructing natural light or ventilation.",
+    "images": [
+      "/images/cosmic-hall-dining-partition.jpg",
+      "/images/cosmic-dining-fluted-screen.jpg",
+      "/images/cosmic-foyer-kitchen-hallway.jpg"
+    ],
+    "features": [
+      "Spatial Separation",
+      "Fluted Timber Screen",
+      "Natural Light Flow",
+      "Polished Marble"
+    ]
+  },
+  {
+    "id": "16",
+    "slug": "premium-bedroom-interior",
+    "title": "Formal Drawing Room & Velvet Lounge",
+    "location": "Koramangala, Bengaluru",
+    "type": "Formal Living Suite",
+    "area": "Interior",
+    "badge": "Interior",
+    "description": "Elegant drawing room finished with classical wall mouldings, plush dusty-rose velvet upholstery, high-back wing chair, and Italian marble flooring with warm lighting.",
+    "images": [
+      "/images/cosmic-drawing-room-seating.jpg",
+      "/images/cosmic-living-entertainment-lounge.jpg",
+      "/images/interior-bedroom-1.jpg"
+    ],
+    "features": [
+      "Classical Mouldings",
+      "Velvet Upholstery",
+      "High-Back Wing Chair",
+      "Designer Lighting"
+    ]
+  },
+  {
+    "id": "17",
+    "slug": "contemporary-kitchen-interior",
+    "title": "Teak Foyer Corridor & Modular Kitchen",
+    "location": "HSR Layout, Bengaluru",
+    "type": "Foyer & Kitchen",
+    "area": "Interior",
+    "badge": "Interior",
+    "description": "Grand entry corridor featuring hand-carved solid teak pillars, false ceiling with floating linear gold pendant, glass display cabinet, and seamless passage to the modular kitchen.",
+    "images": [
+      "/images/cosmic-foyer-kitchen-hallway.jpg",
+      "/images/kitchen-modern-1.jpg",
+      "/images/cosmic-dining-fluted-screen.jpg"
+    ],
+    "features": [
+      "Solid Teak Pillars",
+      "Linear Gold Pendant",
+      "Glass Display Cabinet",
+      "Modular Granite Island"
+    ]
+  }
+]
