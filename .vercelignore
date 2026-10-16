@@ -1,0 +1,10 @@
+.next
+node_modules
+.git
+.claude
+screenshot*
+*.png
+!public/**
+test*.mjs
+check-page.js
+New folder/

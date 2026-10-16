@@ -44,3 +44,5 @@ screenshot*.mjs
 test*.mjs
 check-page.js
 New folder/
+
+.vercel
