@@ -6,7 +6,7 @@ export const packages: Package[] = [
     name: "Essential",
     tagline: "For homeowners looking for functional, practical construction.",
     description:
-      "A no-frills construction package focused on delivering a well-built, functional home with standard materials and finishes. Ideal for budget-conscious homeowners who value quality over luxury.",
+      "A streamlined turnkey construction package focused on delivering a well-built, functional home with dependable branded materials and quality finishes. Ideal for homeowners who value clean, reliable, and functional quality construction.",
     features: [
       "Standard structural design",
       "RCC frame construction",
@@ -19,8 +19,8 @@ export const packages: Package[] = [
       "Detailed BOQ provided",
     ],
     highlighted: false,
-    startingPrice: "₹1,850/sq.ft",
-    idealFor: "Budget-conscious homeowners",
+    startingPrice: "Turnkey Essential Scope",
+    idealFor: "Functional & practical homes",
   },
   {
     id: "premium",
@@ -43,7 +43,7 @@ export const packages: Package[] = [
       "Detailed BOQ & timeline",
     ],
     highlighted: true,
-    startingPrice: "₹2,200/sq.ft",
+    startingPrice: "Turnkey Premium Scope",
     idealFor: "Most popular choice",
   },
   {
@@ -67,7 +67,7 @@ export const packages: Package[] = [
       "Comprehensive warranty",
     ],
     highlighted: false,
-    startingPrice: "₹3,000/sq.ft",
+    startingPrice: "Turnkey Luxury Scope",
     idealFor: "Luxury home seekers",
   },
   {
@@ -85,11 +85,11 @@ export const packages: Package[] = [
       "Luxury sanitaryware selection",
       "Bespoke joinery & fittings",
       "Flexible interior scope",
-      "Flexible payment schedule",
+      "Milestone-based progress schedule",
       "Unlimited design revisions",
     ],
     highlighted: false,
-    startingPrice: "On Request",
+    startingPrice: "Bespoke Custom Scope",
     idealFor: "Fully customized projects",
   },
 ];

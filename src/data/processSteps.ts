@@ -29,11 +29,11 @@ export const processSteps: ProcessStep[] = [
     title: "Consultation & Assessment",
     subtitle: "Professional Consultation and Requirements Evaluation",
     description:
-      "Our team conducts a thorough on-site assessment to understand the plot conditions, discuss your budget, lifestyle needs, and evaluate project feasibility.",
+      "Our team conducts a thorough on-site assessment to understand the plot conditions, discuss your spatial and lifestyle needs, and evaluate project feasibility.",
     bullets: [
       "On-site plot assessment",
-      "Budget and timeline discussion",
-      "Lifestyle requirement analysis",
+      "Timeline and lifestyle requirements discussion",
+      "Spatial and architectural requirement analysis",
       "Project feasibility evaluation",
     ],
     image: "/images/villa-terracotta-corner-1.png",
@@ -57,17 +57,17 @@ export const processSteps: ProcessStep[] = [
   {
     num: "04",
     title: "Proposal & Quotation",
-    subtitle: "Clear Pricing With Transparent Scope",
+    subtitle: "Comprehensive Specifications & Project Scope",
     description:
-      "We provide a detailed project proposal covering scope of work, material specifications, estimated cost breakdown, and the proposed construction timeline.",
+      "We provide a detailed project proposal covering complete scope of work, material specifications, technical drawings, and the proposed construction timeline.",
     bullets: [
       "Detailed project scope document",
-      "Material specification list",
-      "Transparent cost breakdown",
+      "Material specification schedule",
+      "Comprehensive BOQ & architectural deliverables",
       "Proposed construction timeline",
     ],
-    image: "/images/exterior-modern-apt-1.png",
-    imageAlt: "Transparent project quotation and specifications",
+    image: "/images/dream-home-building.jpg",
+    imageAlt: "Architectural 3D rendering proposal and project specifications",
   },
   {
     num: "05",

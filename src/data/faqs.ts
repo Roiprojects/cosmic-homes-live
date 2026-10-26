@@ -27,21 +27,21 @@ export const faqs: FAQItem[] = [
     category: "Packages",
     question: "What construction packages do you offer?",
     answer:
-      "We offer four construction packages: Essential (functional, practical construction), Premium (enhanced finishes and materials), Luxury (high-end design and premium finishes), and Custom (fully tailored to your specifications). Each package is designed to meet different needs and budgets.",
+      "We offer four construction packages: Essential (functional, practical construction), Premium (enhanced finishes and materials), Luxury (high-end design and premium finishes), and Custom (fully tailored to your specifications). Each package is designed to meet different lifestyle preferences and architectural styles.",
   },
   {
     id: "f5",
     category: "Packages",
-    question: "Do you provide a detailed cost estimate?",
+    question: "Do you provide a detailed project proposal?",
     answer:
-      "Yes. After understanding your requirements, plot details, and design preferences, we provide a detailed project proposal and cost estimate before any agreement.",
+      "Yes. After understanding your requirements, plot details, and design preferences, we provide a detailed project proposal with comprehensive material specifications before any agreement.",
   },
   {
     id: "f6",
     category: "Packages",
-    question: "Are there any hidden costs?",
+    question: "Are project deliverables and specifications transparent?",
     answer:
-      "No. We provide a detailed scope of work and a transparent cost breakdown. Any changes to the agreed plan are discussed and documented before proceeding.",
+      "Yes, 100%. We provide a detailed scope of work and a transparent specification schedule. Any changes to the agreed plan are discussed and documented before proceeding.",
   },
   {
     id: "f7",
@@ -111,7 +111,7 @@ export const faqs: FAQItem[] = [
     category: "Payments",
     question: "What happens if I want to make changes after approval?",
     answer:
-      "Change requests after plan approval are handled through a documented change order process. Any cost or timeline impact is communicated to you before proceeding.",
+      "Change requests after plan approval are handled through a documented change order process. Any scope or timeline impact is communicated to you before proceeding.",
   },
 ];
 

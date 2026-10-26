@@ -1,6 +1,6 @@
 export const COMPANY = {
   name: "Cosmic Homes",
-  tagline: "Building Spaces. Creating Legacies.",
+  tagline: "Turnkey Luxury Residences",
   md: "D K Shashidhar",
   title: "Managing Director",
   directorPhoto: "/images/director-shashidhar.jpg",

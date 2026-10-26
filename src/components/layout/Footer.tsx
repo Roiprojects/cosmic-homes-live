@@ -25,27 +25,22 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-12 pb-14 border-b border-white/10">
           
           {/* Brand Info */}
-          <div className="lg:col-span-4 space-y-4">
-            <Link href="/" className="inline-flex items-center gap-3.5 group">
-              <div className="w-16 h-16 rounded-full bg-white flex items-center justify-center p-1.5 shadow-md border border-[#c9a45c]/40 group-hover:border-[#c9a45c] transition-all flex-shrink-0">
-                <div className="w-full h-full rounded-full overflow-hidden relative">
-                  <Image
-                    src="/logo/cosmic-logo.png"
-                    alt="Cosmic Homes"
-                    fill
-                    className="object-contain"
-                    sizes="64px"
-                    quality={95}
-                  />
-                </div>
-              </div>
-              <div>
-                <span className="font-serif text-xl font-bold tracking-wide block group-hover:text-[#c9a45c] transition-colors">Cosmic Homes</span>
-                <span className="text-[0.68rem] uppercase tracking-[0.2em] text-[#c9a45c]">Building Tomorrow, Together</span>
+          <div className="lg:col-span-4 space-y-5">
+            <Link href="/" className="inline-block group" aria-label="Cosmic Homes Home">
+              <div className="relative w-[210px] sm:w-[250px] lg:w-[280px] aspect-[954/504] rounded-xl overflow-hidden bg-[#022421] border border-[#c9a45c]/50 shadow-xl group-hover:border-[#c9a45c] transition-all duration-300">
+                <Image
+                  src="/logo/cosmic_logo.png"
+                  alt="Cosmic Homes - Turnkey Luxury Residences"
+                  fill
+                  className="object-cover"
+                  quality={100}
+                  unoptimized
+                  sizes="280px"
+                />
               </div>
             </Link>
             <p className="text-slate-400 text-sm leading-relaxed max-w-sm font-sans-clean">
-              Bespoke residential architectural design and turnkey construction services across Bengaluru, crafted with trust, transparency, and precision.
+              Bespoke residential architectural design and turnkey luxury construction services across Bengaluru, crafted with trust, transparency, and precision.
             </p>
           </div>
 

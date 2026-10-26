@@ -39,11 +39,11 @@ export default function ProjectsPage() {
   })).filter(cat => cat.items.length > 0);
 
   return (
-    <div className="bg-navy-900 min-h-screen">
+    <div className="bg-[#022b27] min-h-screen">
       {/* Page Header */}
-      <section className="relative pt-32 pb-16 md:pt-40 md:pb-20 bg-navy-900 overflow-hidden">
+      <section className="relative pt-32 pb-16 md:pt-40 md:pb-20 bg-[#022b27] overflow-hidden">
         <div className="absolute inset-0 pointer-events-none">
-          <div className="absolute top-10 right-1/3 w-[350px] h-[350px] rounded-full bg-blue-400/[0.03] blur-3xl" />
+          <div className="absolute top-10 right-1/3 w-[450px] h-[450px] rounded-full bg-[#c9a45c]/8 blur-3xl" />
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
@@ -54,7 +54,7 @@ export default function ProjectsPage() {
             transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
           >
             {/* Breadcrumb */}
-            <nav className="flex items-center gap-2 text-sm text-gray-400 mb-6">
+            <nav className="flex items-center gap-2 text-sm text-gray-400 mb-6 font-body">
               <Link href="/" className="hover:text-white transition-colors">Home</Link>
               <span>/</span>
               <span className="text-white">Projects</span>
@@ -63,23 +63,23 @@ export default function ProjectsPage() {
             {/* Left-right split */}
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-end">
               <div>
-                <span className="inline-block text-gold font-medium text-xs uppercase tracking-[0.2em] mb-5">
-                  Our Homes
+                <span className="inline-block text-[#c9a45c] font-brand font-semibold text-xs uppercase tracking-[0.2em] mb-4">
+                  Turnkey Residences
                 </span>
                 <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold text-white">
-                  Our <span className="text-teal-400">Projects</span>
+                  Our <span className="text-gold-gradient">Projects</span>
                 </h1>
               </div>
               <div>
-                <p className="text-gray-300 text-base md:text-lg leading-relaxed">
-                  Thoughtfully Designed Homes Built Around Your Lifestyle
+                <p className="text-slate-300 text-base md:text-lg leading-relaxed font-body">
+                  Thoughtfully Designed Luxury Residences Built Around Your Lifestyle
                 </p>
               </div>
             </div>
           </motion.div>
         </div>
 
-        <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-gold/20 to-transparent" />
+        <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#c9a45c]/30 to-transparent" />
       </section>
 
       {/* Category Sections with Grid */}
@@ -129,7 +129,7 @@ function CategoryGridSection({
               {group.title}
             </h2>
             <Link href={`/projects/${group.slug === "featured" ? "" : group.slug}`}>
-              <span className="group text-sm text-teal-400 hover:text-teal-300 font-medium inline-flex items-center gap-1.5 transition-colors duration-300 cursor-pointer">
+              <span className="group text-sm text-[#c9a45c] hover:text-[#dfbc77] font-medium inline-flex items-center gap-1.5 transition-colors duration-300 cursor-pointer font-body">
                 View All
                 <svg
                   className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-0.5"
@@ -151,7 +151,7 @@ function CategoryGridSection({
         </motion.div>
 
         {/* Separator */}
-        <div className="h-px bg-gradient-to-r from-transparent via-white/10 to-transparent mt-10" />
+        <div className="h-px bg-gradient-to-r from-transparent via-[#c9a45c]/20 to-transparent mt-10" />
       </div>
     </section>
   );
@@ -175,7 +175,7 @@ function ProjectGridCard({
       transition={{ duration: 0.6, delay: index * 0.08, ease: [0.16, 1, 0.3, 1] }}
     >
       <Link href={`/projects/${project.slug}`} className="group block">
-        <div className="relative rounded-2xl overflow-hidden aspect-[3/4] shadow-lg shadow-black/20 hover:shadow-xl hover:shadow-black/30 transition-shadow duration-500">
+        <div className="relative rounded-2xl overflow-hidden aspect-[3/4] shadow-lg shadow-black/30 hover:shadow-2xl border border-white/10 hover:border-[#c9a45c]/60 transition-all duration-500">
           <Image
             src={project.images[0]}
             alt={project.title}
@@ -184,7 +184,7 @@ function ProjectGridCard({
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
             quality={90}
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent transition-opacity duration-500 group-hover:opacity-90" />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/25 to-transparent transition-opacity duration-500 group-hover:opacity-95" />
 
           <span
             className={`absolute top-3 left-3 px-2.5 py-1 rounded-lg text-[0.65rem] font-bold uppercase tracking-wider ${badgeColor.bg} ${badgeColor.text}`}
@@ -196,15 +196,15 @@ function ProjectGridCard({
             <h3 className="text-white font-heading text-sm md:text-base font-semibold leading-snug transition-transform duration-300 group-hover:-translate-y-0.5">
               {project.title}
             </h3>
-            <p className="text-gray-300 text-xs mt-1 flex items-center gap-1">
-              <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <p className="text-gray-300 text-xs mt-1 flex items-center gap-1 font-body">
+              <svg className="w-3 h-3 text-[#c9a45c]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
               </svg>
               {project.location}
             </p>
-            <p className="text-gray-400 text-xs mt-0.5">{project.type}</p>
-            <span className="inline-flex items-center gap-1 text-teal-400 text-xs font-medium mt-2 opacity-0 group-hover:opacity-100 transition-all duration-300 translate-y-1 group-hover:translate-y-0">
+            <p className="text-[#c9a45c] text-xs mt-0.5 font-body">{project.type}</p>
+            <span className="inline-flex items-center gap-1 text-[#c9a45c] text-xs font-medium mt-2 opacity-0 group-hover:opacity-100 transition-all duration-300 translate-y-1 group-hover:translate-y-0 font-body">
               View Details
               <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />

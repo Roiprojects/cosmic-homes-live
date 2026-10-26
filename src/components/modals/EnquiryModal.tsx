@@ -25,14 +25,13 @@ const floorOptions = [
   { value: "custom", label: "Custom" },
 ];
 
-const budgetOptions = [
-  { value: "", label: "--Select Approximate Budget--" },
-  { value: "30-50L", label: "₹30 - 50 Lakhs" },
-  { value: "50-75L", label: "₹50 - 75 Lakhs" },
-  { value: "75L-1Cr", label: "₹75 Lakhs - 1 Crore" },
-  { value: "1-1.5Cr", label: "₹1 Crore - 1.5 Crores" },
-  { value: "1.5Cr+", label: "₹1.5 Crores +" },
-  { value: "custom", label: "Discuss with Team" },
+const packageOptions = [
+  { value: "", label: "--Select Preferred Package--" },
+  { value: "Essential", label: "Essential Turnkey Package" },
+  { value: "Premium", label: "Premium Luxury Package" },
+  { value: "Luxury", label: "Luxury Bespoke Package" },
+  { value: "Custom", label: "Custom Architectural Design" },
+  { value: "Discuss", label: "Discuss with Team" },
 ];
 
 export default function EnquiryModal() {
@@ -204,17 +203,17 @@ export default function EnquiryModal() {
                   <Input label="City / Location" name="location" placeholder="e.g., Rajajinagar, Bengaluru" required error={errors.location} variant="light" />
                   <Select label="Plot Size" name="plotSize" options={plotSizeOptions} variant="light" />
                   <Select label="Number of Floors" name="floors" options={floorOptions} required variant="light" />
-                  <Select label="Approximate Budget" name="budget" options={budgetOptions} required variant="light" />
+                  <Select label="Preferred Package / Scope" name="budget" options={packageOptions} required variant="light" />
                   <div className="sm:col-span-2">
-                    <label htmlFor="requirement" className="block text-sm font-medium text-navy-muted mb-1.5">
+                    <label htmlFor="requirement" className="block text-sm font-medium text-navy-muted mb-1.5 font-body">
                       Tell us about your dream home...
                     </label>
                     <textarea
                       id="requirement"
                       name="requirement"
                       rows={3}
-                      placeholder="Any specific requirements, style preferences, timeline..."
-                      className="input-light w-full px-4 py-3 border border-gray-300 rounded-xl text-navy placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-teal-500/20 focus:border-teal-500 transition-all resize-none text-sm"
+                      placeholder="Any specific architectural requirements, style preferences, timeline..."
+                      className="input-light w-full px-4 py-3 border border-gray-300 rounded-xl text-navy placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-[#c9a45c]/20 focus:border-[#c9a45c] transition-all resize-none text-sm font-body"
                     />
                   </div>
                 </div>

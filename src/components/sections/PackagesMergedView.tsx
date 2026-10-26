@@ -168,10 +168,10 @@ export default function PackagesMergedView() {
                     </h3>
                     
                     <div className="my-4 pb-4 border-b border-slate-100">
-                      <span className="text-xs uppercase tracking-wider text-slate-400 block font-sans-clean">
-                        Starts At
+                      <span className="text-[0.68rem] uppercase tracking-wider text-[#c9a45c] font-semibold block font-sans-clean">
+                        Specification Tier
                       </span>
-                      <span className="font-serif text-2xl lg:text-3xl font-bold text-[#022b27] block mt-0.5">
+                      <span className="font-serif text-xl lg:text-2xl font-bold text-[#022b27] block mt-0.5">
                         {pkg.startingPrice}
                       </span>
                       {pkg.idealFor && (
@@ -496,7 +496,10 @@ export default function PackagesMergedView() {
                 </div>
                 <div className="p-4 flex items-center justify-between text-xs text-slate-600 font-sans-clean">
                   <span>{prop.area} · {prop.floors}</span>
-                  <span className="font-semibold text-[#022b27]">{prop.price}</span>
+                  <span className="font-semibold text-[#022b27] flex items-center gap-1.5">
+                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-600" />
+                    Turnkey Completed
+                  </span>
                 </div>
               </div>
             ))}

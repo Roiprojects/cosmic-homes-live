@@ -24,10 +24,10 @@ export default function ProjectDetailPage() {
 
   if (mounted && !project) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-navy-900">
+      <div className="min-h-screen flex items-center justify-center bg-[#022b27]">
         <div className="text-center">
           <h1 className="font-heading text-3xl text-white mb-4">Project Not Found</h1>
-          <Link href="/projects" className="text-gold hover:text-gold-300 transition-colors">
+          <Link href="/projects" className="text-[#c9a45c] hover:text-[#dfbc77] transition-colors">
             Back to Projects
           </Link>
         </div>
@@ -40,10 +40,10 @@ export default function ProjectDetailPage() {
   return (
     <>
       {/* Hero */}
-      <section className="relative pt-32 pb-16 md:pt-40 md:pb-24 bg-navy-900 overflow-hidden">
+      <section className="relative pt-32 pb-16 md:pt-40 md:pb-24 bg-[#022b27] overflow-hidden">
         <div className="absolute inset-0 pointer-events-none">
-          <div className="absolute top-10 right-1/4 w-[400px] h-[400px] rounded-full bg-blue-500/[0.04] blur-3xl" />
-          <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-gold/20 to-transparent" />
+          <div className="absolute top-10 right-1/4 w-[400px] h-[400px] rounded-full bg-[#c9a45c]/8 blur-3xl" />
+          <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#c9a45c]/30 to-transparent" />
         </div>
         <div ref={heroRef} className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <motion.div
@@ -51,7 +51,7 @@ export default function ProjectDetailPage() {
             animate={heroVisible ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
           >
-            <nav className="flex items-center gap-2 text-sm text-gray-400 mb-6">
+            <nav className="flex items-center gap-2 text-sm text-gray-400 mb-6 font-body">
               <Link href="/" className="hover:text-white transition-colors">Home</Link>
               <span>/</span>
               <Link href="/projects" className="hover:text-white transition-colors">Projects</Link>
@@ -61,7 +61,7 @@ export default function ProjectDetailPage() {
             <h1 className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">
               {project.title}
             </h1>
-            <p className="text-gray-400 text-base md:text-lg max-w-2xl">
+            <p className="text-slate-300 text-base md:text-lg max-w-2xl font-body leading-relaxed">
               {project.description}
             </p>
           </motion.div>
@@ -69,11 +69,11 @@ export default function ProjectDetailPage() {
       </section>
 
       {/* Main Image */}
-      <section className="relative bg-charcoal-400">
+      <section className="relative bg-[#011f1d]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
           <button
             onClick={() => setLightboxIndex(0)}
-            className="group block relative rounded-2xl overflow-hidden aspect-[4/3] sm:aspect-[16/10] max-h-[600px] text-left w-full"
+            className="group block relative rounded-2xl overflow-hidden aspect-[4/3] sm:aspect-[16/10] max-h-[600px] text-left w-full border border-white/10"
           >
             <Image
               src={project.images[0]}
@@ -85,7 +85,7 @@ export default function ProjectDetailPage() {
               quality={95}
             />
             <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300 flex items-center justify-center">
-              <span className="text-white text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/40 backdrop-blur-sm px-4 py-2 rounded-full">
+              <span className="text-white text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/40 backdrop-blur-sm px-4 py-2 rounded-full font-body">
                 Click to enlarge
               </span>
             </div>
@@ -94,7 +94,7 @@ export default function ProjectDetailPage() {
       </section>
 
       {/* Project Details */}
-      <section className="relative py-16 md:py-24 bg-charcoal-400">
+      <section className="relative py-16 md:py-24 bg-[#022421]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
             {/* Left: Info */}
@@ -154,17 +154,17 @@ export default function ProjectDetailPage() {
                     transition={{ duration: 0.5, delay: i * 0.08, ease: [0.16, 1, 0.3, 1] }}
                     className="flex items-center gap-3 bg-white/5 border border-white/10 rounded-lg px-4 py-3"
                   >
-                    <svg className="w-5 h-5 text-teal-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-5 h-5 text-[#c9a45c] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-white text-sm font-medium">{feature}</span>
+                    <span className="text-white text-sm font-medium font-body">{feature}</span>
                   </motion.div>
                 ))}
               </div>
 
               <div className="mt-10">
                 <h3 className="font-heading text-xl font-bold text-white mb-3">About This Project</h3>
-                <p className="text-gray-400 leading-relaxed text-sm md:text-base">
+                <p className="text-slate-300 leading-relaxed text-sm md:text-base font-body">
                   {project.description}
                 </p>
               </div>
@@ -175,7 +175,7 @@ export default function ProjectDetailPage() {
 
       {/* Gallery */}
       {project.images.length > 1 && (
-        <section className="relative py-16 md:py-24 bg-navy-900 overflow-hidden">
+        <section className="relative py-16 md:py-24 bg-[#022b27] overflow-hidden">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="font-heading text-2xl md:text-3xl font-bold text-white mb-8">Gallery</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -187,7 +187,7 @@ export default function ProjectDetailPage() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.6, delay: i * 0.1, ease: [0.16, 1, 0.3, 1] }}
-                  className="relative rounded-xl overflow-hidden aspect-[4/3] sm:aspect-[16/11] text-left"
+                  className="relative rounded-xl overflow-hidden aspect-[4/3] sm:aspect-[16/11] text-left border border-white/10"
                 >
                   <Image
                     src={img}
@@ -216,15 +216,15 @@ export default function ProjectDetailPage() {
       </AnimatePresence>
 
       {/* CTA Section */}
-      <section className="relative py-20 md:py-28 bg-navy-800 overflow-hidden">
+      <section className="relative py-20 md:py-28 bg-[#011a18] overflow-hidden">
         <div className="absolute inset-0 pointer-events-none">
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] rounded-full bg-gold/5 blur-3xl" />
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] rounded-full bg-[#c9a45c]/8 blur-3xl" />
         </div>
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-white mb-4">
-            Ready to Build Your <span className="text-gold">Dream Home</span>?
+            Ready to Build Your <span className="text-gold-gradient">Dream Home</span>?
           </h2>
-          <p className="text-gray-400 mb-8 max-w-xl mx-auto">
+          <p className="text-slate-300 mb-8 max-w-xl mx-auto font-body">
             Let&apos;s discuss your requirements and turn your vision into reality. Get in touch with us today.
           </p>
           <ModalTrigger variant="primary" size="lg">

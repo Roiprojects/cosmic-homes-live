@@ -117,19 +117,19 @@ function PropertyCard({ property }: { property: (typeof GALLERY_PROPERTIES)[numb
         >
           <div className="flex flex-wrap gap-x-4 gap-y-1 text-gray-300 text-xs">
             <span>{property.location}</span>
-            <span className="text-cyan-400/60">|</span>
+            <span className="text-[#c9a45c]/60">|</span>
             <span>{property.area}</span>
-            <span className="text-cyan-400/60">|</span>
+            <span className="text-[#c9a45c]/60">|</span>
             <span>{property.floors}</span>
-            <span className="text-cyan-400/60">|</span>
-            <span className="text-cyan-300 font-medium">{property.price}</span>
+            <span className="text-[#c9a45c]/60">|</span>
+            <span className="text-[#c9a45c] font-medium">Turnkey Completed</span>
           </div>
         </div>
       </div>
 
-      {/* Cyan bottom border on hover */}
+      {/* Gold bottom border on hover */}
       <div
-        className={`absolute bottom-0 left-0 right-0 h-[2px] bg-gradient-to-r from-cyan-400 to-teal-400 transition-all duration-500 origin-left ${
+        className={`absolute bottom-0 left-0 right-0 h-[2px] bg-gold-gradient transition-all duration-500 origin-left ${
           hovered ? "scale-x-100" : "scale-x-0"
         }`}
       />

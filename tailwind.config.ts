@@ -50,10 +50,20 @@ const config: Config = {
           700: "#0A7777",
           DEFAULT: "#14A6A6",
         },
+        forest: {
+          900: "#011f1d",
+          800: "#022b27",
+          700: "#033b35",
+          600: "#06453f",
+          DEFAULT: "#022b27",
+        },
       },
       fontFamily: {
-        heading: ["Playfair Display", "Georgia", "serif"],
-        body: ["Inter", "system-ui", "sans-serif"],
+        heading: ["var(--font-heading)", "Playfair Display", "Georgia", "serif"],
+        serif: ["var(--font-heading)", "Playfair Display", "Georgia", "serif"],
+        body: ["var(--font-body)", "Plus Jakarta Sans", "system-ui", "sans-serif"],
+        sans: ["var(--font-body)", "Plus Jakarta Sans", "system-ui", "sans-serif"],
+        brand: ["var(--font-brand)", "Cinzel", "serif"],
       },
       keyframes: {
         fadeInUp: {

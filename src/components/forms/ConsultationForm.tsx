@@ -30,20 +30,20 @@ export default function ConsultationForm() {
       <div className="space-y-4">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div>
-            <label className="block text-gray-400 text-xs mb-1.5">Name *</label>
+            <label className="block text-gray-400 text-xs mb-1.5 font-body">Name *</label>
             <input
               type="text"
               required
-              className="w-full bg-white/10 border border-white/10 rounded-xl px-4 py-2.5 text-white text-sm placeholder:text-gray-500 focus:outline-none focus:border-teal-500/50 focus:ring-1 focus:ring-teal-500/30 transition-all"
+              className="w-full bg-white/10 border border-white/10 rounded-xl px-4 py-2.5 text-white text-sm placeholder:text-gray-500 focus:outline-none focus:border-[#c9a45c]/50 focus:ring-1 focus:ring-[#c9a45c]/30 transition-all font-body"
               placeholder="Your name"
             />
           </div>
           <div>
-            <label className="block text-gray-400 text-xs mb-1.5">Phone *</label>
+            <label className="block text-gray-400 text-xs mb-1.5 font-body">Phone *</label>
             <input
               type="tel"
               required
-              className="w-full bg-white/10 border border-white/10 rounded-xl px-4 py-2.5 text-white text-sm placeholder:text-gray-500 focus:outline-none focus:border-teal-500/50 focus:ring-1 focus:ring-teal-500/30 transition-all"
+              className="w-full bg-white/10 border border-white/10 rounded-xl px-4 py-2.5 text-white text-sm placeholder:text-gray-500 focus:outline-none focus:border-[#c9a45c]/50 focus:ring-1 focus:ring-[#c9a45c]/30 transition-all font-body"
               placeholder="+91 98765 43210"
             />
           </div>
@@ -51,18 +51,18 @@ export default function ConsultationForm() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div>
-            <label className="block text-gray-400 text-xs mb-1.5">Email</label>
+            <label className="block text-gray-400 text-xs mb-1.5 font-body">Email</label>
             <input
               type="email"
-              className="w-full bg-white/10 border border-white/10 rounded-xl px-4 py-2.5 text-white text-sm placeholder:text-gray-500 focus:outline-none focus:border-teal-500/50 focus:ring-1 focus:ring-teal-500/30 transition-all"
+              className="w-full bg-white/10 border border-white/10 rounded-xl px-4 py-2.5 text-white text-sm placeholder:text-gray-500 focus:outline-none focus:border-[#c9a45c]/50 focus:ring-1 focus:ring-[#c9a45c]/30 transition-all font-body"
               placeholder="you@email.com"
             />
           </div>
           <div>
-            <label className="block text-gray-400 text-xs mb-1.5">Location</label>
+            <label className="block text-gray-400 text-xs mb-1.5 font-body">Location</label>
             <input
               type="text"
-              className="w-full bg-white/10 border border-white/10 rounded-xl px-4 py-2.5 text-white text-sm placeholder:text-gray-500 focus:outline-none focus:border-teal-500/50 focus:ring-1 focus:ring-teal-500/30 transition-all"
+              className="w-full bg-white/10 border border-white/10 rounded-xl px-4 py-2.5 text-white text-sm placeholder:text-gray-500 focus:outline-none focus:border-[#c9a45c]/50 focus:ring-1 focus:ring-[#c9a45c]/30 transition-all font-body"
               placeholder="Bengaluru"
             />
           </div>
@@ -70,39 +70,39 @@ export default function ConsultationForm() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div>
-            <label className="block text-gray-400 text-xs mb-1.5">Plot Size</label>
-            <select className="w-full bg-white/10 border border-white/10 rounded-xl px-4 py-2.5 text-white text-sm focus:outline-none focus:border-teal-500/50 focus:ring-1 focus:ring-teal-500/30 transition-all appearance-none">
-              <option value="" className="bg-navy">Select plot size</option>
-              <option value="30x40" className="bg-navy">30 x 40</option>
-              <option value="30x50" className="bg-navy">30 x 50</option>
-              <option value="40x60" className="bg-navy">40 x 60</option>
-              <option value="other" className="bg-navy">Other</option>
+            <label className="block text-gray-400 text-xs mb-1.5 font-body">Plot Size</label>
+            <select className="w-full bg-white/10 border border-white/10 rounded-xl px-4 py-2.5 text-white text-sm focus:outline-none focus:border-[#c9a45c]/50 focus:ring-1 focus:ring-[#c9a45c]/30 transition-all appearance-none font-body">
+              <option value="" className="bg-[#022b27]">Select plot size</option>
+              <option value="30x40" className="bg-[#022b27]">30 x 40</option>
+              <option value="30x50" className="bg-[#022b27]">30 x 50</option>
+              <option value="40x60" className="bg-[#022b27]">40 x 60</option>
+              <option value="other" className="bg-[#022b27]">Other</option>
             </select>
           </div>
           <div>
-            <label className="block text-gray-400 text-xs mb-1.5">Home Type</label>
-            <select className="w-full bg-white/10 border border-white/10 rounded-xl px-4 py-2.5 text-white text-sm focus:outline-none focus:border-teal-500/50 focus:ring-1 focus:ring-teal-500/30 transition-all appearance-none">
-              <option value="" className="bg-navy">Select type</option>
-              <option value="independent" className="bg-navy">Independent House</option>
-              <option value="duplex" className="bg-navy">Duplex</option>
-              <option value="villa" className="bg-navy">Residence</option>
-              <option value="apartment" className="bg-navy">Apartment</option>
+            <label className="block text-gray-400 text-xs mb-1.5 font-body">Home Type</label>
+            <select className="w-full bg-white/10 border border-white/10 rounded-xl px-4 py-2.5 text-white text-sm focus:outline-none focus:border-[#c9a45c]/50 focus:ring-1 focus:ring-[#c9a45c]/30 transition-all appearance-none font-body">
+              <option value="" className="bg-[#022b27]">Select type</option>
+              <option value="independent" className="bg-[#022b27]">Independent House</option>
+              <option value="duplex" className="bg-[#022b27]">Duplex</option>
+              <option value="villa" className="bg-[#022b27]">Residence</option>
+              <option value="apartment" className="bg-[#022b27]">Apartment</option>
             </select>
           </div>
         </div>
 
         <div>
-          <label className="block text-gray-400 text-xs mb-1.5">Message</label>
+          <label className="block text-gray-400 text-xs mb-1.5 font-body">Message</label>
           <textarea
             rows={3}
-            className="w-full bg-white/10 border border-white/10 rounded-xl px-4 py-2.5 text-white text-sm placeholder:text-gray-500 focus:outline-none focus:border-teal-500/50 focus:ring-1 focus:ring-teal-500/30 transition-all resize-none"
+            className="w-full bg-white/10 border border-white/10 rounded-xl px-4 py-2.5 text-white text-sm placeholder:text-gray-500 focus:outline-none focus:border-[#c9a45c]/50 focus:ring-1 focus:ring-[#c9a45c]/30 transition-all resize-none font-body"
             placeholder="Tell us about your dream home..."
           />
         </div>
 
         <button
           type="submit"
-          className="w-full bg-gold text-white font-semibold py-3.5 rounded-xl hover:bg-gold-600 transition-all duration-300 text-sm hover:-translate-y-0.5 shadow-lg shadow-gold/20"
+          className="w-full bg-gold-gradient text-white font-semibold py-3.5 rounded-xl hover:shadow-xl transition-all duration-300 text-xs uppercase tracking-wider hover:-translate-y-0.5 shadow-lg shadow-[#c9a45c]/20 cursor-pointer font-body"
         >
           Get Free Consultation
         </button>

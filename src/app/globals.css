@@ -46,7 +46,7 @@
     scrollbar-color: #c9a45c #f4f3ef;
   }
   body {
-    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    font-family: var(--font-body), 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
     background-color: var(--background);
     color: var(--text);
     margin: 0;
@@ -54,22 +54,22 @@
     -webkit-font-smoothing: antialiased;
   }
   h1, h2, h3, h4 {
-    font-family: 'Playfair Display', Georgia, serif;
+    font-family: var(--font-heading), 'Playfair Display', Georgia, serif;
     letter-spacing: -0.01em;
   }
 }
 
 /* ── Editorial Utility Classes ───────────────────────────────────── */
 .font-brand {
-  font-family: 'Cinzel', serif;
+  font-family: var(--font-brand), 'Cinzel', serif;
 }
 
-.font-editorial {
-  font-family: 'Playfair Display', Georgia, serif;
+.font-editorial, .font-heading {
+  font-family: var(--font-heading), 'Playfair Display', Georgia, serif;
 }
 
-.font-sans-clean {
-  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+.font-sans-clean, .font-sans, .font-body {
+  font-family: var(--font-body), 'Plus Jakarta Sans', system-ui, sans-serif;
 }
 
 .text-gold-gradient {

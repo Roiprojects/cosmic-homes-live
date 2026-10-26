@@ -15,7 +15,7 @@ const accordionItems = [
     num: "02",
     title: "Transparent Process",
     description:
-      "Clear communication at every stage. You'll receive regular progress updates, detailed cost breakdowns, and full visibility into the construction timeline.",
+      "Clear communication at every stage. You'll receive regular progress updates, detailed deliverable schedules and BOQ specifications, and full visibility into the construction timeline.",
   },
   {
     num: "03",

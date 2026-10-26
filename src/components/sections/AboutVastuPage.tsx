@@ -83,7 +83,7 @@ const services = [
   {
     icon: "🔍",
     title: "Existing-Home Vastu Assessment",
-    desc: "Already living in your home? We assess the current layout and suggest practical, cost-effective remedies without major structural changes.",
+    desc: "Already living in your home? We assess the current layout and suggest practical, non-invasive remedies without major structural changes.",
   },
   {
     icon: "🌿",
@@ -129,7 +129,7 @@ const whyChooseUs = [
   {
     icon: "🤝",
     title: "Integrated with Construction",
-    desc: "As home builders, we incorporate Vastu from design stage onwards — saving you retrofitting costs later.",
+    desc: "As home builders, we incorporate Vastu from design stage onwards — saving you retrofitting complications later.",
   },
   {
     icon: "📖",

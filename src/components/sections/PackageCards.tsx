@@ -19,14 +19,14 @@ export default function PackageCards() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div className="text-center mb-16">
-          <span className="inline-block text-teal-500 font-medium text-xs uppercase tracking-[0.2em] mb-4">
-            Packages
+          <span className="inline-block text-[#c9a45c] font-brand font-semibold text-xs uppercase tracking-[0.2em] mb-4">
+            Construction Packages
           </span>
-          <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold text-navy mb-4">
-            Explore Our <span className="text-teal-500">Popular Packages</span>
+          <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold text-[#022b27] mb-4">
+            Explore Our <span className="text-gold-gradient">Turnkey Packages</span>
           </h2>
-          <p className="text-navy-muted max-w-2xl mx-auto">
-            Practical construction options designed around your budget and lifestyle.
+          <p className="text-slate-600 max-w-2xl mx-auto font-body">
+            Comprehensive turnkey construction options designed around your lifestyle and architectural aspirations.
           </p>
         </div>
 
@@ -38,47 +38,39 @@ export default function PackageCards() {
               initial="hidden"
               animate={visible ? "show" : {}}
               transition={{ delay: i * 0.12 }}
-              className={`group relative rounded-2xl p-7 md:p-8 flex flex-col h-full transition-all duration-500 ${
+              className={`group relative rounded-2xl p-7 md:p-8 flex flex-col h-full transition-all duration-500 bg-white ${
                 pkg.highlighted
-                  ? "card-light ring-2 ring-teal-500/20 shadow-lg shadow-teal-500/10 lg:-mt-4 lg:mb-4"
-                  : "bg-white border border-gray-200 hover:border-teal-500/30"
+                  ? "ring-2 ring-[#c9a45c]/50 shadow-xl shadow-[#022b27]/10 lg:-mt-4 lg:mb-4 border border-[#c9a45c]/40"
+                  : "border border-slate-200 hover:border-[#c9a45c]/50 shadow-sm hover:shadow-md"
               }`}
             >
               {pkg.highlighted && (
                 <div className="absolute -top-3.5 left-1/2 -translate-x-1/2">
-                  <span className="bg-teal-500 text-white text-xs font-bold px-3 py-1 rounded-full shadow-lg shadow-teal-500/20">
+                  <span className="bg-gold-gradient text-white text-xs font-bold px-3.5 py-1 rounded-full shadow-md">
                     Most Popular
                   </span>
                 </div>
               )}
 
-              <h3 className="font-heading text-2xl font-bold mb-1.5 text-navy">{pkg.name}</h3>
+              <h3 className="font-heading text-2xl font-bold mb-1.5 text-[#022b27]">{pkg.name}</h3>
 
               {(pkg.startingPrice || pkg.idealFor) && (
-                <div className="flex items-center gap-3 mb-3">
+                <div className="flex flex-col gap-1.5 mb-3">
                   {pkg.startingPrice && (
-                    <p className="text-teal-500 font-heading text-lg font-bold">{pkg.startingPrice}</p>
+                    <p className="text-[#c9a45c] font-body text-xs uppercase tracking-wider font-bold">{pkg.startingPrice}</p>
                   )}
                   {pkg.idealFor && (
-                    <span className="text-xs text-navy-muted bg-gray-100 px-2.5 py-1 rounded-lg border border-gray-200">
+                    <span className="text-[0.7rem] text-slate-600 bg-slate-100 px-2.5 py-0.5 rounded-full w-fit">
                       {pkg.idealFor}
                     </span>
                   )}
                 </div>
               )}
 
-              <p
-                className={`text-sm mb-2.5 ${
-                  pkg.highlighted ? "text-navy-muted" : "text-navy-muted"
-                }`}
-              >
+              <p className="text-xs mb-2.5 text-slate-600 font-semibold font-body">
                 {pkg.tagline}
               </p>
-              <p
-                className={`text-xs mb-6 leading-relaxed ${
-                  pkg.highlighted ? "text-navy-muted" : "text-navy-muted"
-                }`}
-              >
+              <p className="text-xs mb-6 leading-relaxed text-slate-500 font-body">
                 {pkg.description}
               </p>
 
@@ -86,12 +78,10 @@ export default function PackageCards() {
                 {pkg.features.map((feature) => (
                   <li
                     key={feature}
-                    className={`flex items-start gap-2.5 text-sm ${
-                      pkg.highlighted ? "text-navy-muted" : "text-navy-muted"
-                    }`}
+                    className="flex items-start gap-2.5 text-xs text-slate-600 font-body"
                   >
                     <svg
-                      className="w-5 h-5 text-teal-500 flex-shrink-0 mt-0.5"
+                      className="w-4 h-4 text-[#c9a45c] flex-shrink-0 mt-0.5"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -107,11 +97,11 @@ export default function PackageCards() {
                 <button
                   className={
                     pkg.highlighted
-                      ? "w-full bg-teal-500 text-white font-semibold py-3.5 rounded-xl hover:bg-teal-600 hover:shadow-lg hover:shadow-teal-500/20 transition-all duration-300 text-sm hover:-translate-y-0.5"
-                      : "w-full border-2 border-teal-500 text-teal-500 font-semibold py-3.5 rounded-xl hover:bg-teal-500 hover:text-white transition-all duration-300 text-sm hover:-translate-y-0.5"
+                      ? "w-full bg-gold-gradient text-white font-semibold py-3.5 rounded-xl hover:shadow-lg transition-all duration-300 text-xs uppercase tracking-wider hover:-translate-y-0.5 cursor-pointer"
+                      : "w-full border border-[#022b27] text-[#022b27] font-semibold py-3.5 rounded-xl hover:bg-[#022b27] hover:text-white transition-all duration-300 text-xs uppercase tracking-wider hover:-translate-y-0.5 cursor-pointer"
                   }
                 >
-                  Get Customized Estimate
+                  Consult on this Package
                 </button>
               </Link>
             </motion.div>

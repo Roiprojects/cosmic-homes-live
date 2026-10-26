@@ -24,14 +24,13 @@ const floorOptions = [
   { value: "custom", label: "Custom" },
 ];
 
-const budgetOptions = [
-  { value: "", label: "--Select Approximate Budget--" },
-  { value: "30-50L", label: "₹30 - 50 Lakhs" },
-  { value: "50-75L", label: "₹50 - 75 Lakhs" },
-  { value: "75L-1Cr", label: "₹75 Lakhs - 1 Crore" },
-  { value: "1-1.5Cr", label: "₹1 Crore - 1.5 Crores" },
-  { value: "1.5Cr+", label: "₹1.5 Crores +" },
-  { value: "custom", label: "Discuss with Team" },
+const packageOptions = [
+  { value: "", label: "--Select Preferred Package--" },
+  { value: "Essential", label: "Essential Turnkey Package" },
+  { value: "Premium", label: "Premium Luxury Package" },
+  { value: "Luxury", label: "Luxury Bespoke Package" },
+  { value: "Custom", label: "Custom Architectural Design" },
+  { value: "Discuss", label: "Discuss with Architecture Team" },
 ];
 
 export default function LeadForm() {
@@ -150,19 +149,19 @@ export default function LeadForm() {
         <Input label="Location" name="location" placeholder="e.g., Rajajinagar" required error={errors.location} variant="light" />
         <Select label="Plot Size" name="plotSize" options={plotSizeOptions} variant="light" />
         <Select label="Number of Floors" name="floors" options={floorOptions} required variant="light" />
-        <Select label="Approximate Budget" name="budget" options={budgetOptions} required variant="light" />
+        <Select label="Preferred Package / Scope" name="budget" options={packageOptions} required variant="light" />
       </div>
 
       <div className="mb-4 mt-4">
-        <label htmlFor="message" className="block text-sm font-medium text-navy mb-1.5">
+        <label htmlFor="message" className="block text-sm font-medium text-navy mb-1.5 font-body">
           Message / Requirements
         </label>
         <textarea
           id="message"
           name="message"
           rows={4}
-          placeholder="Tell us about your project requirements, budget, and any specific needs..."
-          className="w-full px-4 py-3 border border-gray-200 rounded-xl text-navy placeholder:text-gray-400 bg-gray-50/80 focus:outline-none focus:ring-2 focus:ring-teal-500/20 focus:border-teal-500 transition-all resize-none text-sm"
+          placeholder="Tell us about your plot location, desired architectural style, and specific requirements..."
+          className="w-full px-4 py-3 border border-gray-200 rounded-xl text-navy placeholder:text-gray-400 bg-gray-50/80 focus:outline-none focus:ring-2 focus:ring-[#c9a45c]/20 focus:border-[#c9a45c] transition-all resize-none text-sm font-body"
         />
       </div>
 

@@ -7,7 +7,7 @@ export const GALLERY_PROPERTIES = [
     location: "Bengaluru",
     area: "3,800 sq.ft",
     floors: "G+2",
-    price: "₹85 Lakhs",
+    status: "Turnkey Completed",
   },
   {
     id: 102,
@@ -17,7 +17,7 @@ export const GALLERY_PROPERTIES = [
     location: "Bengaluru",
     area: "4,200 sq.ft",
     floors: "G+3",
-    price: "₹92 Lakhs",
+    status: "Turnkey Completed",
   },
   {
     id: 103,
@@ -27,7 +27,7 @@ export const GALLERY_PROPERTIES = [
     location: "Bengaluru",
     area: "3,400 sq.ft",
     floors: "G+2",
-    price: "₹78 Lakhs",
+    status: "Turnkey Completed",
   },
   {
     id: 104,
@@ -37,7 +37,7 @@ export const GALLERY_PROPERTIES = [
     location: "Bengaluru",
     area: "3,600 sq.ft",
     floors: "G+2",
-    price: "₹82 Lakhs",
+    status: "Turnkey Completed",
   },
   {
     id: 105,
@@ -47,7 +47,7 @@ export const GALLERY_PROPERTIES = [
     location: "Bengaluru",
     area: "Interior Suite",
     floors: "G+2",
-    price: "₹18 Lakhs",
+    status: "Turnkey Completed",
   },
   {
     id: 106,
@@ -57,7 +57,7 @@ export const GALLERY_PROPERTIES = [
     location: "Bengaluru",
     area: "Interior Suite",
     floors: "G+2",
-    price: "₹24 Lakhs",
+    status: "Turnkey Completed",
   },
   {
     id: 1,
@@ -67,7 +67,7 @@ export const GALLERY_PROPERTIES = [
     location: "Rajajinagar",
     area: "3,200 sq.ft",
     floors: "G+2",
-    price: "₹58 Lakhs",
+    status: "Turnkey Completed",
   },
   {
     id: 2,
@@ -77,7 +77,7 @@ export const GALLERY_PROPERTIES = [
     location: "Jayanagar",
     area: "2,800 sq.ft",
     floors: "G+2",
-    price: "₹42 Lakhs",
+    status: "Turnkey Completed",
   },
   {
     id: 3,
@@ -87,7 +87,7 @@ export const GALLERY_PROPERTIES = [
     location: "HSR Layout",
     area: "4,100 sq.ft",
     floors: "G+2",
-    price: "₹72 Lakhs",
+    status: "Turnkey Completed",
   },
   {
     id: 4,
@@ -97,7 +97,7 @@ export const GALLERY_PROPERTIES = [
     location: "Koramangala",
     area: "3,800 sq.ft",
     floors: "G+1",
-    price: "₹65 Lakhs",
+    status: "Turnkey Completed",
   },
   {
     id: 5,
@@ -107,7 +107,7 @@ export const GALLERY_PROPERTIES = [
     location: "Whitefield",
     area: "3,500 sq.ft",
     floors: "G+2",
-    price: "₹55 Lakhs",
+    status: "Turnkey Completed",
   },
   {
     id: 6,
@@ -117,7 +117,7 @@ export const GALLERY_PROPERTIES = [
     location: "Malleshwaram",
     area: "3,600 sq.ft",
     floors: "G+3",
-    price: "₹68 Lakhs",
+    status: "Turnkey Completed",
   },
   {
     id: 7,
@@ -127,7 +127,7 @@ export const GALLERY_PROPERTIES = [
     location: "Hebbal",
     area: "3,500 sq.ft",
     floors: "G+2",
-    price: "₹70 Lakhs",
+    status: "Turnkey Completed",
   },
   {
     id: 8,
@@ -137,7 +137,7 @@ export const GALLERY_PROPERTIES = [
     location: "Electronic City",
     area: "3,200 sq.ft",
     floors: "G+2",
-    price: "₹48 Lakhs",
+    status: "Turnkey Completed",
   },
   {
     id: 9,
@@ -147,6 +147,6 @@ export const GALLERY_PROPERTIES = [
     location: "Yelahanka",
     area: "5,000 sq.ft",
     floors: "G+3",
-    price: "₹95 Lakhs",
+    status: "Turnkey Completed",
   },
 ];

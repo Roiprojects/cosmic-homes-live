@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Playfair_Display, Inter } from "next/font/google";
+import { Playfair_Display, Plus_Jakarta_Sans, Cinzel } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
@@ -16,32 +16,39 @@ const heading = Playfair_Display({
   display: "swap",
 });
 
-const body = Inter({
+const body = Plus_Jakarta_Sans({
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
+  weight: ["300", "400", "500", "600", "700", "800"],
   variable: "--font-body",
+  display: "swap",
+});
+
+const brand = Cinzel({
+  subsets: ["latin"],
+  weight: ["500", "600", "700", "800"],
+  variable: "--font-brand",
   display: "swap",
 });
 
 export const metadata: Metadata = {
   title: {
-    default: "Cosmic Homes — Premium Residential Construction, Bengaluru",
+    default: "Cosmic Homes — Turnkey Luxury Residences, Bengaluru",
     template: "%s | Cosmic Homes",
   },
   description:
-    "Cosmic Homes is a premier architectural design and residential home construction firm in Bengaluru, delivering bespoke turnkey homes with unwavering quality and transparency.",
+    "Cosmic Homes is a premier architectural design and turnkey residential construction firm in Bengaluru, delivering bespoke luxury homes with unwavering quality and transparency.",
   icons: {
-    icon: "/logo/cosmic-logo.png",
-    shortcut: "/logo/cosmic-logo.png",
-    apple: "/logo/cosmic-logo.png",
+    icon: "/logo/cosmic_logo.jpeg",
+    shortcut: "/logo/cosmic_logo.jpeg",
+    apple: "/logo/cosmic_logo.jpeg",
   },
   openGraph: {
-    title: "Cosmic Homes — Premium Residential Construction, Bengaluru",
+    title: "Cosmic Homes — Turnkey Luxury Residences, Bengaluru",
     description:
       "End-to-end residential construction in Bengaluru. From architectural design to handover.",
     type: "website",
     locale: "en_IN",
-    images: ["/logo/cosmic-logo.png"],
+    images: ["/logo/cosmic_logo.jpeg"],
   },
 };
 
@@ -51,8 +58,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${heading.variable} ${body.variable}`}>
-      <body className="font-body antialiased bg-white">
+    <html lang="en" className={`${heading.variable} ${body.variable} ${brand.variable}`}>
+      <body className="font-body antialiased bg-[#fbfbf9] text-[#1a242f]">
         <Header />
         <EnquiryModalProvider>
           <main>{children}</main>

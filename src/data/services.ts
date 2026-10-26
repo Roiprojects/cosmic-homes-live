@@ -70,13 +70,13 @@ export const services: Service[] = [
     slug: "project-management",
     title: "Project Management",
     shortDescription:
-      "Strict milestone tracking, transparent budget auditing, and continuous site supervision.",
+      "Strict milestone tracking, transparent specification auditing, and continuous site supervision.",
     fullDescription:
       "Dedicated turnkey project management ensuring on-time delivery with zero surprises.",
     icon: "project-management",
     features: [
       "Timeline management",
-      "Budget coordination",
+      "Milestone coordination",
       "Site supervision",
       "Quality control",
     ],

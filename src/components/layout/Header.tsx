@@ -35,20 +35,29 @@ export default function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 transition-all duration-300 pointer-events-none">
       <div className="w-full max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 pt-3 pb-2 flex items-center justify-between">
         
-        {/* LOGO — Rectangular horizontal layout */}
+        {/* LOGO — Crisp Green Rectangle Visiting Card Badge */}
         <div className="pointer-events-auto">
           <Link
             href="/"
-            className="flex items-center hover:opacity-90 hover:scale-[1.02] transition-all duration-300"
+            className="flex items-center group transition-transform duration-300 hover:scale-[1.02]"
+            aria-label="Cosmic Homes Home"
           >
-            <div className="relative w-[220px] h-[66px] sm:w-[270px] sm:h-[81px] lg:w-[320px] lg:h-[96px] overflow-hidden rounded-lg">
+            <div
+              className={`relative transition-all duration-300 rounded-xl overflow-hidden bg-[#022421] border border-[#c9a45c]/60 shadow-[0_8px_25px_rgba(0,0,0,0.35)] group-hover:border-[#c9a45c] group-hover:shadow-[0_10px_32px_rgba(201,164,92,0.3)] ${
+                scrolled
+                  ? "w-[160px] sm:w-[190px] lg:w-[230px] aspect-[954/504]"
+                  : "w-[190px] sm:w-[230px] lg:w-[280px] xl:w-[310px] aspect-[954/504]"
+              }`}
+            >
               <Image
-                src="/logo/cosmic-logo-rect.jpg"
-                alt="Cosmic Homes - Building Tomorrow, Together"
+                src="/logo/cosmic_logo.png"
+                alt="Cosmic Homes - Turnkey Luxury Residences"
                 fill
-                className="object-contain object-left"
+                className="object-cover"
                 priority
-                sizes="(max-width: 640px) 220px, (max-width: 1024px) 270px, 320px"
+                quality={100}
+                unoptimized
+                sizes="(max-width: 640px) 190px, (max-width: 1024px) 240px, 310px"
               />
             </div>
           </Link>

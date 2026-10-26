@@ -26,7 +26,7 @@ export default function ProjectCard({
     >
       <div
         onClick={() => router.push(`/projects/${project.slug}`)}
-        className="group cursor-pointer relative rounded-2xl overflow-hidden bg-white border border-gray-200 hover:border-teal-500/30 card-light"
+        className="group cursor-pointer relative rounded-2xl overflow-hidden bg-white border border-slate-200/90 hover:border-[#c9a45c]/60 shadow-sm hover:shadow-xl transition-all duration-300"
       >
         {/* Image */}
         <div className="relative aspect-[4/3] overflow-hidden">
@@ -49,11 +49,11 @@ export default function ProjectCard({
 
         {/* Content */}
         <div className="p-6">
-          <h3 className="font-heading text-lg font-bold text-navy mb-1.5 group-hover:text-teal-500 transition-colors duration-300">
+          <h3 className="font-heading text-lg font-bold text-[#022b27] mb-1.5 group-hover:text-[#c9a45c] transition-colors duration-300">
             {project.title}
           </h3>
-          <div className="flex items-center gap-1.5 text-navy-muted text-sm mb-4">
-            <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <div className="flex items-center gap-1.5 text-slate-500 text-sm mb-4 font-body">
+            <svg className="w-3.5 h-3.5 text-[#c9a45c]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
             </svg>
@@ -61,12 +61,12 @@ export default function ProjectCard({
           </div>
           <div className="flex flex-wrap gap-2 mb-5">
             {project.features.map((f: string) => (
-              <span key={f} className="text-xs bg-gray-100 text-navy-muted px-2.5 py-1 rounded-lg border border-gray-200">
+              <span key={f} className="text-xs bg-slate-100 text-slate-600 px-2.5 py-1 rounded-lg border border-slate-200 font-body">
                 {f}
               </span>
             ))}
           </div>
-          <span className="text-teal-500 text-sm font-semibold inline-flex items-center gap-1.5 group-hover:gap-2.5 transition-all duration-300">
+          <span className="text-[#c9a45c] text-sm font-semibold inline-flex items-center gap-1.5 group-hover:gap-2.5 transition-all duration-300 font-body">
             View Project
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
