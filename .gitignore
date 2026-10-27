@@ -38,6 +38,7 @@ Thumbs.db
 .claude/
 
 # Temporary / Screenshot test files
+deploy.bat
 screenshot*.png
 screenshot*.cjs
 screenshot*.mjs
