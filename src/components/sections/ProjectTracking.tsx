@@ -128,8 +128,8 @@ export default function ProjectTracking() {
             </div>
 
             <a href="/how-it-works">
-              <button className="bg-white text-navy-800 font-semibold px-7 py-3.5 rounded-xl hover:bg-gray-100 transition-all duration-300 text-sm hover:-translate-y-0.5 shadow-lg">
-                Explore Our Process
+              <button className="bg-gold-gradient text-white font-semibold px-7 py-3.5 rounded-full hover:shadow-xl transition-all duration-300 text-sm hover:-translate-y-0.5 shadow-lg border border-[#c9a45c]/30 font-brand">
+                Explore Our Process &rarr;
               </button>
             </a>
           </motion.div>

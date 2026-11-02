@@ -90,7 +90,7 @@ export default function Header() {
                   {isActive && (
                     <motion.span
                       layoutId="navPillIndicator"
-                      className="absolute inset-0 bg-[#022b27] rounded-full"
+                      className="absolute inset-0 bg-[#022b27] border border-[#c9a45c]/40 shadow-sm rounded-full"
                       transition={{ type: "spring", stiffness: 380, damping: 30 }}
                     />
                   )}
@@ -155,7 +155,7 @@ export default function Header() {
                     onClick={close}
                     className={`block px-4 py-3 rounded-xl text-sm font-medium tracking-wide transition-colors ${
                       isActive
-                        ? "bg-[#022b27] text-white font-semibold"
+                        ? "bg-[#022b27] text-white font-semibold border border-[#c9a45c]/40"
                         : "text-slate-700 hover:bg-slate-50"
                     }`}
                   >

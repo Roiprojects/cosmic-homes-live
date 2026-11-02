@@ -32,11 +32,11 @@ export default function ProcessTimeline() {
           transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
           className="text-center mb-16 md:mb-20"
         >
-          <span className="inline-block text-teal-500 font-medium text-xs uppercase tracking-[0.2em] mb-4">
+          <span className="inline-block text-[#c9a45c] font-brand font-semibold text-xs uppercase tracking-[0.2em] mb-4">
             From Concept to Completion
           </span>
-          <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold text-navy mb-4">
-            Your Roadmap to Building <span className="text-teal-500">Your Dream Home</span>
+          <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold text-[#022b27] mb-4">
+            Your Roadmap to Building <span className="text-gold-gradient">Your Dream Home</span>
           </h2>
           <p className="text-navy-muted max-w-2xl mx-auto text-base">
             We simplify every stage of home construction, from your first enquiry and design planning to construction, quality inspection and final handover.
@@ -78,7 +78,7 @@ function ProcessStep({ step, index }: { step: typeof processSteps[0]; index: num
     >
       {/* Timeline dot */}
       <div className="absolute left-6 md:left-1/2 -translate-x-1/2 mt-1 z-10">
-        <div className="w-4 h-4 rounded-full bg-teal-500 border-4 border-white shadow-md" />
+        <div className="w-4 h-4 rounded-full bg-[#022b27] border-2 border-[#c9a45c] shadow-md" />
       </div>
 
       {/* Step number (mobile: above content) */}
@@ -100,27 +100,27 @@ function ProcessStep({ step, index }: { step: typeof processSteps[0]; index: num
       <div className={`flex-1 pl-14 md:pl-0 ${isEven ? "md:pr-10" : "md:pl-10"}`}>
         {/* Step number badge (mobile visible) */}
         <div className="md:hidden flex items-center gap-3 mb-3">
-          <div className="w-10 h-10 rounded-full bg-teal-500 flex items-center justify-center text-white font-heading text-sm font-bold flex-shrink-0">
+          <div className="w-10 h-10 rounded-full bg-[#022b27] border border-[#c9a45c]/50 flex items-center justify-center text-[#c9a45c] font-brand text-sm font-bold flex-shrink-0 shadow-sm">
             {step.num}
           </div>
-          <h3 className="font-heading text-xl font-bold text-navy">{step.title}</h3>
+          <h3 className="font-heading text-xl font-bold text-[#022b27]">{step.title}</h3>
         </div>
 
         {/* Desktop step number */}
         <div className="hidden md:flex items-center gap-3 mb-3">
-          <div className="w-10 h-10 rounded-full bg-teal-500 flex items-center justify-center text-white font-heading text-sm font-bold">
+          <div className="w-10 h-10 rounded-full bg-[#022b27] border border-[#c9a45c]/50 flex items-center justify-center text-[#c9a45c] font-brand text-sm font-bold shadow-sm">
             {step.num}
           </div>
-          <h3 className="font-heading text-xl font-bold text-navy">{step.title}</h3>
+          <h3 className="font-heading text-xl font-bold text-[#022b27]">{step.title}</h3>
         </div>
 
-        <p className="text-teal-500 font-medium text-sm mb-2">{step.subtitle}</p>
+        <p className="text-[#c9a45c] font-medium text-sm mb-2">{step.subtitle}</p>
         <p className="text-navy-muted text-sm leading-relaxed mb-4">{step.description}</p>
 
         <ul className="space-y-2">
           {step.bullets.map((bullet) => (
             <li key={bullet} className="flex items-start gap-2.5 text-sm text-navy-muted">
-              <svg className="w-5 h-5 text-teal-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className="w-5 h-5 text-[#c9a45c] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
               </svg>
               {bullet}

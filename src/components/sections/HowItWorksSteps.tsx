@@ -51,7 +51,7 @@ export default function HowItWorksSteps() {
                       <span className="font-serif text-4xl sm:text-5xl font-bold text-[#c9a45c]/40 leading-none">
                         {step.num}
                       </span>
-                      <span className="text-[0.68rem] uppercase tracking-[0.22em] font-semibold text-[#022b27] bg-[#022b27]/5 px-3 py-1 rounded-full">
+                      <span className="text-[0.68rem] uppercase tracking-[0.22em] font-semibold text-[#c9a45c] bg-[#022b27] border border-[#c9a45c]/40 px-3.5 py-1 rounded-full shadow-sm font-brand">
                         Step {step.num}
                       </span>
                     </div>
@@ -102,9 +102,9 @@ export default function HowItWorksSteps() {
         <div className="mt-24 text-center">
           <Link
             href="/contact"
-            className="inline-flex items-center justify-center px-8 py-4 rounded-full bg-[#022b27] text-white text-xs uppercase tracking-[0.16em] font-semibold hover:bg-[#06453f] hover:shadow-xl transition-all hover:-translate-y-0.5"
+            className="inline-flex items-center justify-center px-8 py-4 rounded-full bg-gold-gradient text-white text-xs uppercase tracking-[0.16em] font-semibold shadow-[0_6px_22px_rgba(201,164,92,0.35)] hover:shadow-[0_8px_28px_rgba(201,164,92,0.5)] transition-all hover:-translate-y-0.5 border border-[#c9a45c]/30 font-serif"
           >
-            Start Your Construction Journey
+            Start Your Construction Journey &rarr;
           </Link>
         </div>
 
